@@ -74,9 +74,8 @@ class _ChatPageState extends State<ChatPage> {
             alignment: Alignment.bottomCenter,
             width: MediaQuery.of(context).size.width,
             child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
-              width: MediaQuery.of(context).size.width,
-              color: Colors.grey[700],
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 18),
+              color: Color.fromRGBO(113, 113, 113, .5),
               child: Row(children: [
                 Expanded(
                     child: TextFormField(

@@ -1,6 +1,7 @@
 import 'package:chat_app/helper/helper_function.dart';
 import 'package:chat_app/pages/auth/login_page.dart';
 import 'package:chat_app/pages/profile_page.dart';
+import 'package:chat_app/pages/search_page.dart';
 import 'package:chat_app/services/auth_services.dart';
 import 'package:chat_app/services/database_service.dart';
 import 'package:chat_app/widgets/group_tile.dart';
@@ -66,8 +67,8 @@ class _HomePageState extends State<HomePage> {
         actions: [
           IconButton(
               onPressed: () {
-                //nextScreen(context, const SearchPage());
-              },
+                nextScreen(context, const SearchPage());
+              }, 
               icon: const Icon(
                 Icons.search,
               ))
