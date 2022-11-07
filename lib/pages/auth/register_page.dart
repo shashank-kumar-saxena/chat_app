@@ -1,7 +1,3 @@
-// import 'package:chatapp_firebase/helper/helper_function.dart';
-// import 'package:chatapp_firebase/pages/auth/login_page.dart';
-// import 'package:chatapp_firebase/pages/home_page.dart';
-// import 'package:chatapp_firebase/service/auth_service.dart';
 import 'package:chat_app/helper/helper_function.dart';
 import 'package:chat_app/pages/auth/login_page.dart';
 import 'package:chat_app/pages/home_page.dart';
