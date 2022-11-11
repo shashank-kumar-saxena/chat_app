@@ -69,12 +69,17 @@ class _ChatPageState extends State<ChatPage> {
       body: Stack(
         children: <Widget>[
           // chat messages here
-          chatMessages(),
+          Container(
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height - 145,
+            child: chatMessages(),
+          ),
           Container(
             alignment: Alignment.bottomCenter,
             width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
             child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 18),
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               color: Color.fromRGBO(113, 113, 113, .5),
               child: Row(children: [
                 Expanded(
